@@ -29,7 +29,13 @@ This is the easiest part! Create a [SourceFile](http://code.google.com/p/dart/so
         String c = classify.classifySource(sf);
 
 
-Outputted html code would look like this
+Outputted html code would look something like this
 
 
-       <span class="i ">main</span><span class="p ">(</span><span class="p ">)</span><span> </span><span class="p ">{</span><span> </span><span class="i ">print</span><span class="p ">(</span><span class="s si">'hello world'</span><span class="p ">)</span><span class="p ">;</span><span> </span><span class="p ">}</span> 
+       <span class="i ">main</span><span class="p ">(</span><span class="p ">)</span><span> 
+       </span><span class="p ">{</span><span> </span><span class="i ">print</span>
+       <span class="p ">(</span><span class="s si">'hello world'</span>
+       <span class="p ">)</span><span class="p ">;</span><span> </span><span class="p ">}</span> 
+
+
+
