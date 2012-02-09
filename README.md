@@ -21,10 +21,15 @@ Build with minfrog for best results. At the moment dart editor does not seem hap
 
 Using classify
 --------------
-This is the easier part! Create a [SourceFile]() and add pass it along to [classifySource]() which will return a properly formatted string of span elements that has class attributes set. 
+This is the easiest part! Create a [SourceFile](http://code.google.com/p/dart/source/browse/branches/bleeding_edge/dart/frog/source.dart) and add pass it along to [classifySource](http://code.google.com/p/dart/source/browse/branches/bleeding_edge/dart/utils/dartdoc/classify.dart) which will return a properly formatted string of span elements that has class attributes set. 
 
 
         String code = "main() { print('hello world'); }";
         classify.SourceFile sf = new classify.SourceFile("sf.dart", code);
         String c = classify.classifySource(sf);
 
+
+Outputted html code would look like this
+
+
+       <span class="i ">main</span><span class="p ">(</span><span class="p ">)</span><span> </span><span class="p ">{</span><span> </span><span class="i ">print</span><span class="p ">(</span><span class="s si">'hello world'</span><span class="p ">)</span><span class="p ">;</span><span> </span><span class="p ">}</span> 
