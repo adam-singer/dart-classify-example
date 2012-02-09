@@ -1,7 +1,7 @@
 Example of how to use dartdoc/classify.dart
 ===========================================
 
-dartdoc is used for generating static HTML for the api.dartlang.org site. This example shows how importing dartdoc/classify.dart one could generate syntax highlighted dart code at runtime. 
+[dartdoc](http://code.google.com/p/dart/source/browse/branches/bleeding_edge/dart/utils/dartdoc/) is used for generating static HTML for the api.dartlang.org site. This example shows how importing [dartdoc/classify.dart](http://code.google.com/p/dart/source/browse/branches/bleeding_edge/dart/utils/dartdoc/classify.dart) one could generate syntax highlighted dart code at runtime. 
 
 
 Patching
