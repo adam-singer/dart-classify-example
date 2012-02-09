@@ -32,8 +32,6 @@ main() {
     String c = classify.classifySource(sf);
     var e = new Element.html("<pre><source>${c}</source></pre>");
     document.body.nodes.add(e);
-    //print(c);
-    
   }
 }
 
